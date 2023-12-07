@@ -28,11 +28,8 @@ def print_state(answer):
 
 while len(answer_record) < 50:
     answer_state = turtle.textinput(title=f"{score}/50 States Correct", prompt="What another state's name")
-    missing_state = []
     if answer_state == "Exit":
-        for state in states:
-            if state not in answer_record:
-                missing_state.append(state)
+        missing_state = [state for state in states if state not in answer_record]
         new_data = pandas.DataFrame(missing_state)
         new_data.to_csv("states_missing.csv")
         break
