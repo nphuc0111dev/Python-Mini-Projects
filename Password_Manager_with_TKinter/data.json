@@ -1,0 +1,18 @@
+{
+    "Facebook": {
+        "email": "example@email.com",
+        "password": "39b%r$P(0d)sMIo4"
+    },
+    "Linkedin": {
+        "email": "example@email.com",
+        "password": "m7g&Nt+(f7wqW8tD"
+    },
+    "Zalo": {
+        "email": "example@email.com",
+        "password": "&sza!qNxs6i)gs9"
+    },
+    "Messenger": {
+        "email": "example@email.com",
+        "password": "l*hEP(26fUIv"
+    }
+}
