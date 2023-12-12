@@ -1,1 +1,2 @@
-# Boot-Camp-100
+# Python Mini Projects
+
